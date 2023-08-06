@@ -122,6 +122,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
 def index():
+    print(request.method)
     if request.method == "POST":
         file = request.files.get('file')
         if file is None or file.filename == "":
