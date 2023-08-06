@@ -84,7 +84,6 @@ pytz==2021.3
 PyWavelets==1.1.1
 pywebio==1.4.0
 pywhatkit==5.1
-pywin32==302
 pywinauto==0.6.8
 PyYAML==6.0
 requests==2.26.0
